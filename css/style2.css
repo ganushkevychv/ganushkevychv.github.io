@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: "two two one one" "three three one one" "four four one one" "five five five five"
+}
+
+.one {
+    grid-area: one;
+    align-self: stretch;
+}
+
+.two {
+    grid-area: two;
+    align-self: stretch;
+}
+
+.three {
+    grid-area: three;
+    align-self: stretch;
+}
+
+.four {
+    grid-area: four;
+    align-self: stretch;
+}
+
+.five {
+    grid-area: five;
+    align-self: stretch;
+    background: url(/images/gmail.png) no-repeat;
+}
+
+img {
+    display: block;
+    max-width: 410px;
+    max-height: 448.44px;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
