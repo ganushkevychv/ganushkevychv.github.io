@@ -5,46 +5,29 @@
 .container {
     display: grid;
     margin: 0 auto;
-    grid-template-rows: auto;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    grid-template-areas: "two two one one" "three three one one" "four four one one" "five five five five"
+    grid-template-rows: 2;
+    grid-template-columns: repeat (auto-fit, minmax(300px, 1fr));
+    grid-template-areas: "block one"
 }
 
-.one {
-    grid-area: one;
+.block {
     align-self: stretch;
-}
-
-.two {
-    grid-area: two;
-    align-self: stretch;
-}
-
-.three {
-    grid-area: three;
-    align-self: stretch;
-}
-
-.four {
-    grid-area: four;
-    align-self: stretch;
-}
-
-.five {
-    grid-area: five;
-    align-self: stretch;
-    background: url(/images/gmail.png) no-repeat;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 img {
-    display: block;
-    max-width: 410px;
-    max-height: 448.44px;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 ul {
     list-style: none;
+}
+
+.Gmail {
+    background-image: url(../images/gmail.png)
 }
