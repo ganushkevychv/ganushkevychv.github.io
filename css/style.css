@@ -71,9 +71,9 @@ ul {
         margin-right: 0;
         font-weight: bold;
     }
-    ul::before {
+    .list-item::before {
         content: "";
-        background-image: url(../images/gmail.png) no-repeat;
+        background: url(../images/gmail.png) no-repeat;
         list-style: none;
     }
 }
