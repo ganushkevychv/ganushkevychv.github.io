@@ -1,20 +1,21 @@
 @media screen and (max-width: 960px) {
     /*card*/
     body {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         font-family: sans-serif;
         background: #fbfbfb;
     }
     .menu {
         position: absolute;
-        top: -4%;
+        top: -68%;
         bottom: 0;
-        left: 0;
+        left: 0px;
         margin: auto;
         height: 280px;
         width: 10%;
         padding: 0;
+        align-content: flex-end;
     }
     .card {
         position: absolute;
@@ -91,7 +92,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
-        min-height: 200px;
+        min-height: 220px;
         background: #fff;
         box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
         border-radius: 10px;
@@ -102,7 +103,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
-        min-height: 200px;
+        min-height: 220px;
         background: #fff;
         box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
         border-radius: 10px;
@@ -113,7 +114,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 300px;
-        min-height: 200px;
+        min-height: 220px;
         background: #fff;
         box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
         border-radius: 10px;
@@ -150,8 +151,8 @@
     .project .box .img,
     .projectOne .box .img,
     .projectTwo .box .img {
-        width: 170px;
-        height: 80px;
+        width: 140px;
+        height: 59px;
         margin: 0 auto;
         border-radius: none;
         overflow: hidden;
@@ -198,5 +199,67 @@
     .projectThree .text {
         text-align: start;
         text-indent: 15px;
+    }
+    /*page*/
+    * {
+        transition: all 500ms ease-out;
+        -webkit-transition: all 500ms ease-out;
+    }
+    body,
+    section,
+    .page {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+        -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+        color: #fff;
+        background: white;
+        overflow: hidden;
+    }
+    .page {
+        position: absolute;
+    }
+    #p1 {
+        left: 0;
+    }
+    #p2 {
+        left: 100%;
+        background: white;
+    }
+    #p3 {
+        left: 200%;
+        background: white;
+    }
+    .menu {
+        position: fixed;
+        z-index: 1;
+    }
+    #t1:target .page#p1 {
+        transform: translateX(0);
+    }
+    #t2:target .page#p2 {
+        transform: translateX(-100%);
+    }
+    #t3:target .page#p3 {
+        transform: translateX(-198%);
+    }
+    #t2:target .page#p1,
+    #t3:target .page#p1,
+    #t4:target .page#p1 {
+        background: none;
+    }
+    .menu .listM {
+        margin: 50px 0;
+    }
+    #icon,
+    #icon1,
+    #icon2 {
+        color: black;
+        margin: 8px;
+    }
+    li {
+        list-style: none;
     }
 }
