@@ -7,15 +7,16 @@
         background: #fbfbfb;
     }
     .menu {
-        position: absolute;
-        top: -68%;
+        position: fixed;
+        top: 11%;
         bottom: 0;
         left: 0px;
-        margin: auto;
+        margin: 0 auto;
         height: 280px;
         width: 10%;
         padding: 0;
         align-content: flex-end;
+        right: 89%;
     }
     .card {
         position: absolute;
@@ -124,8 +125,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 600px;
-        min-height: 800px;
+        width: 328px;
+        min-height: 684px;
         background: #fff;
         box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
         border-radius: 10px;
@@ -261,5 +262,10 @@
     }
     li {
         list-style: none;
+    }
+    P {}
+    .textStyle {
+        line-height: 1em;
+        font-size: 12px;
     }
 }
