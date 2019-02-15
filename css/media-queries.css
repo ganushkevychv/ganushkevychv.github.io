@@ -5,17 +5,18 @@
         padding: 0;
         font-family: sans-serif;
         background: #fbfbfb;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .menu {
         position: fixed;
-        top: 11%;
+        top: 30%;
         bottom: 0;
         left: 0px;
         margin: 0 auto;
         height: 280px;
         width: 10%;
         padding: 0;
-        align-content: flex-end;
         right: 89%;
     }
     .card {
@@ -209,7 +210,7 @@
     body,
     section,
     .page {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
@@ -263,9 +264,9 @@
     li {
         list-style: none;
     }
-    P {}
     .textStyle {
         line-height: 1em;
         font-size: 12px;
+        text-align: center;
     }
 }
