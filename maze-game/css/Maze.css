@@ -1,0 +1,38 @@
+.cell {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background: white;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.player {
+    background-image:url(../img/mazeRunner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wall {
+    background-image:url(../img/brick.jpg);
+}
+
+.treasure {
+    background-image: url(../img/bc423502d7f7a60ec9e9d11f56fd2700--wooden-chest-vector-free.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.easterEgg {
+    background-image:url(../img/brick.jpg);
+}
+
