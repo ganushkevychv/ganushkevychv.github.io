@@ -1,0 +1,236 @@
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/backg.png");
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header-icon {
+    width: 400px;
+    padding-bottom: 300px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.header-content-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-title {
+    font-family: 'Coiny', cursive;
+    font-size: 200px;
+    margin-bottom: 0px;
+    color: var(--dark);
+    text-align: left;
+}
+.header-content-paragraph {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Coiny', cursive;
+}
+.subscribe-link {
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark);
+    font-family: 'Coiny';
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+/* FUNNY SUB BUTTON*/
+.subscribe-link:before {
+    content: '';
+    border-bottom: solid 3px var(--medium);
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
+.subscribe-link:hover:before {
+    border-bottom: solid thin #070707;
+    width: 40%;
+    -webkit-animation: heartbeat-x 1.7s infinite ease-in;
+    animation: heartbeat-x 1.7s infinite ease-in;
+}
+.subscribe-link:hover {
+    -webkit-animation: heartbeat 1.7s infinite ease-in;
+    animation: heartbeat 1.7s infinite ease-in;
+    color: var(--medium);
+}
+
+@-webkit-keyframes heartbeat {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    10% {
+        -webkit-transform: scale(1.1);
+    }
+    20% {
+        -webkit-transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1.1);
+    }
+    40% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes heartbeat-x {
+    0% {
+        -webkit-transform: scaleX(0);
+    }
+    10% {
+        -webkit-transform: scaleX(1);
+    }
+    20% {
+        -webkit-transform: scaleX(0);
+    }
+    30% {
+        -webkit-transform: scaleX(1);
+    }
+    40% {
+        -webkit-transform: scaleX(0);
+    }
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+@keyframes heartbeat-x {
+    0% {
+        transform: scaleX(0);
+    }
+    10% {
+        transform: scaleX(1);
+    }
+    20% {
+        transform: scaleX(0);
+    }
+    30% {
+        transform: scaleX(1);
+    }
+    40% {
+        transform: scaleX(0);
+    }
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1400px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .header-icon {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .header-title {
+        font-size: 130px;
+    }
+    .header-content-paragraph {
+        font-size: 20px;
+    }
+    .subscribe-link {
+        font-size: 30px;
+    }
+    .header-content {
+        padding-top: 190px;
+    }
+}
+
+@media (max-width:950px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .header-icon {
+        margin: 0 auto;
+        width: 200px;
+        padding-bottom: 350px;
+    }
+    .header-title {
+        font-size: 80px;
+    }
+    .header-content-paragraph {
+        font-size: 20px;
+    }
+    .header-content {
+        padding-top: 220px;
+        padding-left: 25px;
+        
+        
+    }
+}
+
+@media (max-width:620px) {
+    header {
+        display: flex;
+    }
+    .header-icon {
+        margin: 0 auto;
+    }
+    .header-title {
+        font-size: 60px;
+    }
+    .header-content-paragraph {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:530px) {
+    header {
+        min-height: 80vh;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        padding: 0;
+    }
+    .header-icon {
+        margin: 0 auto;
+        width: 200px;
+        padding: 0;
+    }
+    .header-title {
+        font-size: 60px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header-content-paragraph {
+        font-size: 20px;
+    }
+    .subscribe-link {
+        font-size: 19px;
+    }
+}

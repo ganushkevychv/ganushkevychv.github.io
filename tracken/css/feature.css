@@ -1,0 +1,42 @@
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 50px auto auto auto;
+    min-height: 100vh;
+    align-items: center;
+    padding: 60px 0;
+}
+#list>h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+#list>div {
+        padding: 20px;
+        text-align: center;
+        box-shadow: 1px 3px 10px var(--verydark);
+        margin: 10px;
+        flex-basis: 300px;
+        max-height: 235px;
+    }
+#list p {
+    font-style: italic;
+    text-align: center;
+    text-shadow:  1px 2px 2px var(--light);
+}
+#list img {
+    width: 100px;
+    height: auto;
+}    
+@media (max-width: 660px) {
+
+    #list {
+        flex-direction: column;
+    }
+    #list>div {
+        width: 95%
+      
+    }
+
+    }
