@@ -1,0 +1,86 @@
+.app {
+    text-align: center;
+    padding: 10px;
+}
+
+.app__list {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*.app__button {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: rgb(218, 22, 175);
+    background-color: white;
+    cursor: pointer;
+    opacity: .8;
+    outline: 0;
+}*/
+.ui.item.dropdown{
+    text-align: center;
+}
+.ui.vertical.menu {
+    width: auto;
+    
+}
+.app__button:hover {
+    opacity: 1;
+}
+
+.app .mainMenuChat {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-inline-start: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .app {
+        text-align: center;
+    }
+    .app__list {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .app__button:hover {
+        opacity: 1;
+    }
+    .app .mainMenuChat {
+        margin-bottom: 10px;
+    }
+    ul {
+        padding-inline-start: 1px;
+    }
+    li {
+        list-style: none;
+    }
+    .ui.vertical.menu {
+        width: 200px;
+    }
+    .ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover{
+        margin: auto;
+        background: none;
+    }
+    .ui.item.dropdown{
+        margin: auto;
+    }
+
+.ui.menu .active.item {
+    background: none;
+}
+.ui.menu .item:before{
+    background: none;
+}
+}

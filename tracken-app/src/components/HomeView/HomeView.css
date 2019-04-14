@@ -1,0 +1,68 @@
+body{
+  background: rgb(250, 250, 250);
+}
+.HomeView {
+  height: 100vh;
+  background-image: linear-gradient(rgb(245, 245, 245), rgb(250, 250, 250))
+}
+
+.homeView-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  
+}
+.homeView-search form.form {
+  max-width:400px;
+  width: 100%;
+}
+
+.homeView-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.ui.inverted.button {
+  background:#a333c8;
+}
+
+.tracken-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  max-width: 100hh;
+  margin: 0 auto;
+}
+
+.tracken-logo p {
+padding-right: 10px;
+font-family: 'Coiny', cursive;
+font-size: 50px;
+color: #572172;
+}
+
+.homeView-footer {
+  position: fixed;
+  background: #572172;
+  bottom: 0px;
+  height: 50px;
+  width: 100%
+
+}
+
+.homeView-footer p {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(250, 252, 250)
+}
+
+ @media (max-width: 600px) {
+  .tracken-logo {
+    flex-direction: column
+  }
+}

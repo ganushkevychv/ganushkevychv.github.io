@@ -1,0 +1,44 @@
+td.td_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+td.td_buttons .hideCopy {
+  display: none;
+}
+
+td.td_buttons .showCopy {
+  display: block;
+}
+
+th.contacts_table {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.contacts_table td,
+th {
+  padding: 6px;
+  text-align: left;
+}
+.span__title--td {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .span__title--td {
+    display: inline-block;
+    font-weight: 600;
+    text-align: right;
+    width: 140px;
+    vertical-align: top;
+  }
+  .span__content--td {
+    display: inline-block;
+    width: calc(100% - 140px);
+  }
+  .ui.table:not(.unstackable) thead:first-child {
+    display: none !important;
+  }
+}

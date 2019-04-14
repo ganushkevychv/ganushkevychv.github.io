@@ -1,0 +1,27 @@
+.LogIn .ui.button {
+    margin: 10px 0;
+  
+}
+.LogIn .ui.form .field>label {
+    margin-top: 10px;
+  
+}
+.LogIn {
+    background: whitesmoke;
+    padding: 20px;
+    max-width: 525px;
+    margin: 0 auto;
+  }
+  .LogIn .ui.form .field {
+    width: 100%;
+  }
+
+@media only screen and (max-width: 606px){
+.LogIn .ui.form .field {
+  width: 100%;
+}
+.LogIn{
+    width: 90%
+}
+}
+
