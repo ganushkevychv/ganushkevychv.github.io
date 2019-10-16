@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/sky.jpg");
+    background-image: url("/fdp/img/sky.jpg");
 }
 .text, .select {
     display: flex;

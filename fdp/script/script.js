@@ -193,14 +193,14 @@ const resultOne =
  }else if (sectorValue === "sectorSix" && fdpValue === "fdpTwelve") {
   getResultDiv.innerHTML = "Result: " + resultOne[59]
  }else if (sectorValue === "sectorOneTwo" && fdpValue === "fdpThirteen") {
-  getResultDiv.innerHTML = "Result: " + resultOne[61]
+  getResultDiv.innerHTML = "Result: " + resultOne[60]
  }else if (sectorValue === "sectorThree" && fdpValue === "fdpThirteen") {
-  getResultDiv.innerHTML = "Result: " + resultOne[62]
+  getResultDiv.innerHTML = "Result: " + resultOne[61]
  }else if (sectorValue === "sectorFour" && fdpValue === "fdpThirteen") {
-  getResultDiv.innerHTML = "Result: " + resultOne[63]
+  getResultDiv.innerHTML = "Result: " + resultOne[62]
  }else if (sectorValue === "sectorFive" && fdpValue === "fdpThirteen") {
-  getResultDiv.innerHTML = "Result: " + resultOne[64]
+  getResultDiv.innerHTML = "Result: " + resultOne[63]
  }else if (sectorValue === "sectorSix" && fdpValue === "fdpThirteen") {
-  getResultDiv.innerHTML = "Result: " + resultOne[65]
+  getResultDiv.innerHTML = "Result: " + resultOne[64]
  }
 }
