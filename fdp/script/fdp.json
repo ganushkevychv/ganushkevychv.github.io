@@ -1,0 +1,92 @@
+{
+    "fdpOne": {
+      "sectorOneTwo": "13:00",
+      "sectorThree": "12:30",
+      "sectorFour": "12:00",
+      "sectorFive": "11:30",
+      "sectorSix": "11:00"
+    },
+    "fdpTwo": {
+      "sectorOneTwo": "12:45",
+      "sectorThree": "12:15",
+      "sectorFour": "11:45",
+      "sectorFive": "11:15",
+      "sectorSix": "10:45"
+    },
+    "fdpThree": {
+      "sectorOneTwo": "12:30",
+      "sectorThree": "12:00",
+      "sectorFour": "11:30",
+      "sectorFive": "11:00",
+      "sectorSix": "10:30"
+    },
+    "fdpFour": {
+      "sectorOneTwo": "12:15",
+      "sectorThree": "11:45",
+      "sectorFour": "11:15",
+      "sectorFive": "10:45",
+      "sectorSix": "10:15"
+    },
+    "fdpFive": {
+      "sectorOneTwo": "12:00",
+      "sectorThree": "11:30",
+      "sectorFour": "11:00",
+      "sectorFive": "10:30",
+      "sectorSix": "10:00"
+    },
+    "fdpSix": {
+      "sectorOneTwo": "11:45",
+      "sectorThree": "11:15",
+      "sectorFour": "10:45",
+      "sectorFive": "10:15",
+      "sectorSix": "9:45"
+    },
+    "fdpSeven": {
+      "sectorOneTwo": "11:30",
+      "sectorThree": "11:00",
+      "sectorFour": "10:30",
+      "sectorFive": "10:00",
+      "sectorSix": "9:30"
+    },
+    "fdpEight": {
+      "sectorOneTwo": "11:15",
+      "sectorThree": "10:45",
+      "sectorFour": "10:15",
+      "sectorFive": "9:45",
+      "sectorSix": "9:15"
+    },
+    "fdpNine": {
+      "sectorOneTwo": "11:00",
+      "sectorThree": "10:30",
+      "sectorFour": "10:00",
+      "sectorFive": "9:30",
+      "sectorSix": "9:00"
+    },
+    "fdpTen": {
+      "sectorOneTwo": "12:00",
+      "sectorThree": "11:30",
+      "sectorFour": "11:00",
+      "sectorFive": "10:30",
+      "sectorSix": "10:00"
+    },
+    "fdpEleven": {
+      "sectorOneTwo": "12:15",
+      "sectorThree": "11:45",
+      "sectorFour": "11:15",
+      "sectorFive": "10:45",
+      "sectorSix": "10:15"
+    },
+    "fdpTwelve": {
+      "sectorOneTwo": "12:30",
+      "sectorThree": "12:00",
+      "sectorFour": "11:30",
+      "sectorFive": "11:00",
+      "sectorSix": "10:30"
+    },
+    "fdpThirteen": {
+      "sectorOneTwo": "12:45",
+      "sectorThree": "12:15",
+      "sectorFour": "11:45",
+      "sectorFive": "11:15",
+      "sectorSix": "10:45"
+    }
